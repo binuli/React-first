@@ -1,0 +1,36 @@
+//Content
+.content{
+    font-family: Century Gothic;
+    .content__title{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        color: white;
+    }
+    .content__buttons{
+        position: absolute;
+        top: 62%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        
+        ul{
+            li{
+               margin: 10px;
+                display: inline;
+                border:  1px solid #fff;
+                padding: 10px 30px;
+                color: white;
+                text-decoration: none;
+                transition: 0.5s ease;
+                font-size: 20px;
+                &:hover{
+                    background-color: black;
+                }
+            }
+        }
+       
+    }
+}

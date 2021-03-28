@@ -1,0 +1,85 @@
+.navbar {
+  background-color: lightskyblue;
+  margin-top: 0;
+  font-family: Century Gothic;
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbar__links {
+  height: 90%;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbar__links ul {
+  width: 100%;
+  height: 90%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbar__links ul li {
+  padding: 5px 20px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  -webkit-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+
+.navbar .navbar__links ul li:hover {
+  color: darkgreen;
+  background-color: black;
+}
+
+.navbar .navbar__links ul .navbar__links__active {
+  background-color: lightskyblue;
+  padding: 5px;
+  color: black;
+}
+
+.navbar .navbar__logo {
+  height: 90%;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbar__logo img {
+  height: 100px;
+  width: auto;
+}
+/*# sourceMappingURL=navbar.css.map */
